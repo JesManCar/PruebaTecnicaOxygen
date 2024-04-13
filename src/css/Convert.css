@@ -1,0 +1,40 @@
+.grid{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 2em;
+}
+
+.box{
+    background-color: #2E0039;
+    border-radius: 2em;
+    width: 700px;
+    min-width: 300px;
+    height: 250px;
+    align-self: center;
+    margin: auto;
+    padding: 2%;
+    display:flex;
+    flex-direction: row;
+
+}
+.material-symbols-outlined {
+    color:white;
+    padding: 1vh;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 48;
+}
+.material-symbols-outlined:hover{
+    padding: 1vh;
+    color: #ffffff;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24;
+}
